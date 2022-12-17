@@ -1,11 +1,6 @@
 import React from 'react'
 import logo from '../../img/logo1native.png'
 import { FaFacebook, FaLinkedin } from 'react-icons/fa'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import Image from 'react-bootstrap/Image';
 
 const Nvbar = () => {
     return (
