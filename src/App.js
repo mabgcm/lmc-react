@@ -5,8 +5,8 @@ import Nvbar from './components/Navbar/Nvbar'
 function App() {
   return (
     <>
-      <Hero />
       <Nvbar />
+      <Hero />
     </>
   );
 }

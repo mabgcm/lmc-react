@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 const Nvbar = () => {
     return (
-        <div className='m-auto' style={{ backgroundColor: "#19100b" }}>
+        <div className='m-auto' id='header' style={{ backgroundColor: "#19100b" }}>
 
             <nav className="d-flex align-items-center navbar navbar-expand-lg navbar-dark" >
                 <a className="navbar-brand" href="#"><img id='logo' src={logo} alt="LMC Logo" /></a>
