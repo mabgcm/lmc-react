@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Nvbar from './components/Navbar/Nvbar'
 
 function App() {
   return (
-    <div className="App">
-      <h1>LMC Panama</h1>
-    </div>
+    <Nvbar />
   );
 }
 
