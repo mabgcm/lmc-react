@@ -30,7 +30,7 @@ function App() {
         </div>
         <Nvbar />
         <Routes>
-          <Route path="hero" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path='hero' element={<Hero />} />
           <Route path='products' element={<Products />}>
             <Route index element={<Product1 />} />
