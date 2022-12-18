@@ -1,0 +1,20 @@
+{
+    "english": {
+        "Link1": "Home",
+        "Link2": "Products",
+        "Link3": "Product1",
+        "Link4": "Product2",
+        "Link5": "Product3",
+        "Link6": "Contact Us",
+        "Link7": "About Us"
+    },
+    "spanish": {
+        "Link1": "Casa",
+        "Link2": "Productos",
+        "Link3": "Producto1",
+        "Link4": "Producto2",
+        "Link5": "Producto3",
+        "Link6": "Contacto",
+        "Link7": "Sobre Nosotros"
+    }
+}

@@ -1,10 +1,16 @@
 import React from 'react';
 import logo from '../../img/logo1native.png';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
-import Language from './Language';
+import { Link } from 'react-router-dom';
+// import uk from '../../img/uk.png';
+// import sp from '../../img/sp.png';
+// import { I18nPropvider, LOCALES } from '../i18n';
+import translate from "../i18n/translate";
+
 
 
 const Nvbar = () => {
+
     return (
         <div className='m-auto' id='header' style={{ backgroundColor: "#19100b" }}>
 
@@ -14,46 +20,29 @@ const Nvbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active" id='ntext' >
-                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                        <li className="nav-item m-auto" id='ntext' >
+                            <Link className="nav-link ntext" to='/'>{translate("Link1")}</Link>
                         </li>
-                        <li className="nav-item" id='ntext'>
-                            <a className="nav-link ntext" href="/">Manufacturing</a>
-                        </li>
-                        <li className="nav-item" id='ntext'>
-                            <a className="nav-link ntext" href="/">History</a>
-                        </li>
-                        <li className="nav-item dropdown" id='ntext'>
-                            <a className="nav-link ntext dropdown-toggle" href="/" role="button" data-toggle="dropdown" aria-expanded="false"><span>Products</span>
 
-                            </a>
-                            <div className="dropdown-menu" style={{ backgroundColor: "#19100b" }}>
-                                <a className="dropdown-item" href="/">Product1</a>
-                                <a className="dropdown-item" href="/">Product2</a>
-                                <a className="dropdown-item" href="/">Product3</a>
-                            </div>
+                        <li className="nav-item dropdown" id='ntext'>
+                            <Link className="nav-link ntext" to='/products'>{translate("Link2")}</Link>
                         </li>
                         <li className="nav-item" id='ntext'>
-                            <a className="nav-link ntext" href="/">Contact</a>
+                            <Link className="nav-link ntext" to='contact'>{translate("Link6")}</Link>
                         </li>
                         <li className="nav-item" id='ntext'>
-                            <a className="nav-link ntext" href="/">About Us</a>
+                            <Link className="nav-link ntext" to='about'>{translate("Link7")}</Link>
                         </li>
 
                     </ul>
                     <div className="header-social-links d-flex align-items-center mr-auto">
-                        <a href="/" className="facebook"><FaFacebook className='social' /></a>
-                        <a href="/" className="linkedin"><FaLinkedin className='social' /></a>
+                        <Link className="facebook" to='/'><FaFacebook className='social' /></Link>
+                        <Link className="linkedin" to='/'><FaLinkedin className='social' /></Link>
                     </div>
-                    <Language />
                 </div>
             </nav>
-
-
-
         </div >
     )
 }
