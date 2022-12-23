@@ -16,11 +16,11 @@ const Hero = () => {
 
                     <div className="col-md-12">
                         <h1>
-                            {translate("Link1")}
+                            {translate("home1")}
                         </h1>
 
                         <p className="tagline">
-                            This is a powerful theme with some great features that you can use in your future projects.
+                            {translate("home2")}
                         </p>
                         <a className="btn btn-full scrollto" href="test">{translate('Link2')}</a>
                     </div>
