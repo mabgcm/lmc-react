@@ -25,15 +25,15 @@ const Footer = () => {
                                 </li>
 
                                 <li className="list-inline-item">
-                                    <Link to='/'>{translate("Link2")}</Link>
+                                    <Link to='products'>{translate("Link2")}</Link>
                                 </li>
 
                                 <li className="list-inline-item">
-                                    <Link to='/'>{translate("Link6")}</Link>
+                                    <Link to='contact'>{translate("Link6")}</Link>
                                 </li>
 
                                 <li className="list-inline-item">
-                                    <Link to='/'>{translate("Link7")}</Link>
+                                    <Link to='about'>{translate("Link7")}</Link>
                                 </li>
                             </ul>
                         </div>
