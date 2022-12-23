@@ -2,9 +2,6 @@ import React from 'react';
 import logo from '../../img/logo1native.png';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-// import uk from '../../img/uk.png';
-// import sp from '../../img/sp.png';
-// import { I18nPropvider, LOCALES } from '../i18n';
 import translate from "../i18n/translate";
 
 
@@ -20,7 +17,7 @@ const Nvbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="col-md-10 collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item m-auto" id='ntext' >
                             <Link className="nav-link ntext" to='/'>{translate("Link1")}</Link>
@@ -37,7 +34,7 @@ const Nvbar = () => {
                         </li>
 
                     </ul>
-                    <div className="header-social-links d-flex align-items-center mr-auto">
+                    <div className="col-md-2 header-social-links d-flex align-items-center mr-auto">
                         <Link className="facebook" to='/'><FaFacebook className='social' /></Link>
                         <Link className="linkedin" to='/'><FaLinkedin className='social' /></Link>
                     </div>

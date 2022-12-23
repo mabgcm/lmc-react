@@ -13,6 +13,7 @@ import Product2 from '../src/components/products/Product2';
 import Product3 from '../src/components/products/Product3';
 import Contact from './components/Contact';
 import About from './components/About';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path='contact' element={<Contact />} />
           <Route path='about' element={<About />} />
         </Routes>
+        <Footer />
       </I18nPropvider>
     </>
 
